@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(242, 243, 244);
+}
+header{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #1F2A44;
+    color: rgb(252, 245, 245);
+    padding: 15px;
+}
+button{
+    text-decoration: none;
+    color: aliceblue;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #044fff00;
+    padding: 5px;
+    margin: 10px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: white;
+    color: #1F2A44;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+section{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 33% 33%  33% ;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px rgb(124, 123, 123);
+    transition: 0.4s;
+    
+}
+.card:hover{
+    bottom: 10px;
+    transform:  translateY(-5px);
+
+}
+img{
+    width: 250px;
+}
+
+.botao-comprar{
+    
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: rgb(47, 134, 249);
+    padding: 5px;
+    margin: 10px;
+    transition: 0.5s;
+    width: 70%;
+}
+.botao-comprar:hover{
+    background-color: white;
+    color: rgb(47, 134, 249);
+    position: relative;
+}
